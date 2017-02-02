@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "start": "meteor run",
-    "build": "meteor npm install && meteor npm install bcrypt"
+    "build": "meteor npm install && meteor add npm-bcrypt && meteor npm install bcrypt"
   },
   "dependencies": {
     "babel-runtime": "^6.22.0",
