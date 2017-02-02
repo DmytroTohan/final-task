@@ -1,6 +1,6 @@
-# Project Title
+# Instagram-mini
 
-One Paragraph of project description goes here
+A simple version of Instagram, where you can create an account, publish photos, comment and like posts of other users.
 
 ## Getting Started
 
