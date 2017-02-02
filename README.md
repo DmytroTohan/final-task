@@ -1,24 +1,10 @@
 # Instagram-mini
 
-A simple version of Instagram, where you can create an account, publish photos, comment and like posts of other users.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+A simple version of [Instagram](https://www.instagram.com/), where you can create an account, publish photos, comment and like posts of other users.
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Cloning this repository
 
 ```
 Give the example
