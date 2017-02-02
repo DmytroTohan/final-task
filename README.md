@@ -39,8 +39,7 @@ Link: [https://instagram-mini.heroku.com](https://myinstagram.heroku.com)
 
 ## Built With
 
-* [Meteor](https://www.meteor.com/) - The web framework used
-* [MongoDB](https://www.mongodb.com/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
+* [Meteor](https://www.meteor.com/) - is a full-stack JavaScript platform, which is suitable for writing real-time application.
+* [MongoDB](https://www.mongodb.com/) - all data is stored in the mongo collections. For the photos storage used [GridFS](https://docs.mongodb.com/manual/core/gridfs/)
+* [Bootstrap](http://getbootstrap.com/getting-started/) - Used to generate RSS Feeds
 
