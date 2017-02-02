@@ -2,7 +2,7 @@
 
 A simple version of [Instagram](https://www.instagram.com/), where you can create an account, publish photos, comment and like posts of other users.
 
-### Installing
+### Getting started
 
 Before installing the application, you must install `meteor`.
 
@@ -10,6 +10,7 @@ For `osx/linux` type on your terminal `curl https://install.meteor.com/ | sh`
 
 For `windows` go to https://www.meteor.com/install, download and run Meteor installer.
 
+### Installing
 
 You can clone this repository. Open terminal and type: 
 
