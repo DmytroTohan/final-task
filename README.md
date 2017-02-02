@@ -4,13 +4,13 @@ A simple version of [Instagram](https://www.instagram.com/), where you can creat
 
 ### Installing
 
-Cloning this repository
+You can clone this repository 
 
 ```
-Give the example
+  git clone https://github.com/DmytroTohan/final-task.git 
 ```
 
-And repeat
+or download ZIP
 
 ```
 until finished
