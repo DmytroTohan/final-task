@@ -33,14 +33,14 @@ Open your web browser and go to http://localhost:3000 to see the app running.
 
 ## Deployment
 
-App was deploy in [Heroku](http://www.heroku.com)
+App was deployed on [Heroku](http://www.heroku.com)
 
 Link: [https://instagram-mini.heroku.com](https://myinstagram.heroku.com)
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
+* [Meteor](https://www.meteor.com/) - The web framework used
+* [MongoDB](https://www.mongodb.com/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 
