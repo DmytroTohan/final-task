@@ -4,16 +4,23 @@ A simple version of [Instagram](https://www.instagram.com/), where you can creat
 
 ### Installing
 
-You can clone this repository 
+Before installing the application, you must install `meteor`.
+
+For `osx/linux` type on your terminal `curl https://install.meteor.com/ | sh`
+
+For `windows` go to https://www.meteor.com/install, download and run Meteor installer.
+
+
+You can clone this repository. Open terminal and type: 
 
 ```
   git clone https://github.com/DmytroTohan/final-task.git 
 ```
 
-or download ZIP
+or download ZIP. After that, go to app folder(final-task) and type:
 
 ```
-until finished
+  npm 
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
