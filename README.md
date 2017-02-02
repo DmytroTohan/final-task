@@ -18,13 +18,12 @@ You can clone this repository. Open terminal and type:
   git clone https://github.com/DmytroTohan/final-task.git 
 ```
 
-or download ZIP. After that, go to app folder(final-task) and type:
+or download ZIP. After that, go to the app folder `../final-task` and type:
 
 ```
-  npm 
+  npm run build
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
