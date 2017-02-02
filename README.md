@@ -41,5 +41,5 @@ Link: [https://instagram-mini.heroku.com](https://myinstagram.heroku.com)
 
 * [Meteor](https://www.meteor.com/) - is a full-stack JavaScript platform, which is suitable for writing real-time application.
 * [MongoDB](https://www.mongodb.com/) - all data is stored in the mongo collections. For the photos storage used [GridFS](https://docs.mongodb.com/manual/core/gridfs/)
-* [Bootstrap](http://getbootstrap.com/getting-started/) - Used to generate RSS Feeds
+* [Bootstrap](http://getbootstrap.com/getting-started/) - framework for client side.
 
