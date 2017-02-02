@@ -1,0 +1,332 @@
+.grid-block,
+.main,
+.post,
+.comments li,
+.comment-form
+{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+}
+
+body {
+    color: #666;
+    background: #eee;
+}
+
+.logo-container a {
+  display: flex;
+  justify-content: center;
+}
+
+#main
+{
+    position: relative;
+}
+
+.page
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar
+{
+    margin-bottom: 10px;
+}
+
+.navbar .navbar-inner
+{
+    border-radius: 0 0 3px 3px;
+}
+
+#spinner
+{
+    height: 300px;
+}
+
+.post
+{
+    position: relative;
+
+    opacity: 1;
+    *zoom: 1;
+}
+.post:before,
+.post:after
+{
+    display: table;
+
+    content: '';
+}
+.post:after
+{
+    clear: both;
+}
+.post.invisible
+{
+    opacity: 0;
+}
+.post.instant
+{
+    -webkit-transition: none;
+       -moz-transition: none;
+         -o-transition: none;
+            transition: none;
+}
+.post.animate
+{
+    -webkit-transition: all 300ms 0ms;
+       -moz-transition: all 300ms 0ms ease-in;
+         -o-transition: all 300ms 0ms ease-in;
+            transition: all 300ms 0ms ease-in;
+}
+/*.post .upvote
+{
+    display: block;
+    float: left;
+}*/
+.post .post-content {
+    text-align: center;
+}
+.post .post-content h3
+{
+    font-size: 18px;
+    line-height: 1.4;
+
+    margin: 0;
+}
+.post .post-content h3 a
+{
+    display: inline-block;
+
+    margin-right: 5px;
+}
+.post .post-content h3 span
+{
+    font-size: 14px;
+    font-weight: normal;
+
+    display: inline-block;
+
+    color: #aaa;
+}
+.post .post-content p
+{
+    margin: 0;
+}
+.post .discuss
+{
+    display: block;
+    float: right;
+
+    margin-top: 7px;
+}
+
+.post .post-content img {
+  max-width: 1000px;
+}
+
+.choose-foto-row {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.post-content {
+  margin-top: 10px;
+}
+
+.post-controlls {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.post-controlls a:first-child {
+  margin-right: 10px;
+}
+
+.media-left img {
+  border: 1px solid #959d97;
+}
+
+span.file-path {
+  margin-left: 10px;
+}
+
+.comments
+{
+    margin: 0;
+
+    list-style-type: none;
+}
+.comments li h4
+{
+    font-size: 16px;
+
+    margin: 0;
+}
+.comments li h4 .date
+{
+    font-size: 12px;
+    font-weight: normal;
+}
+.comments li h4 a
+{
+    font-size: 12px;
+}
+.comments li p:last-child
+{
+    margin-bottom: 0;
+}
+
+.comments-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.post-controlls p:last-child {
+  position: absolute;
+  margin-left: 10px;
+  border: 1px solid #ddd8d3;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.post-controlls a:last-child {
+  text-decoration: none;
+}
+
+.dropdown-menu span
+{
+    line-height: 20px;
+
+    display: block;
+    clear: both;
+
+    padding: 3px 20px;
+
+    white-space: nowrap;
+
+    color: #bbb;
+}
+
+.load-more
+{
+    line-height: 60px;
+
+    display: block;
+
+    height: 60px;
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    border-radius: 3px;
+    background: rgba(0, 0, 0, .05);
+}
+.load-more:hover
+{
+    text-decoration: none;
+
+    background: rgba(0, 0, 0, .1);
+}
+
+.posts .spinner-container
+{
+    position: relative;
+
+    height: 100px;
+}
+
+.new-photo img {
+  margin-top: 10px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.jumbotron
+{
+    text-align: center;
+}
+.jumbotron h2
+{
+    font-size: 60px;
+    font-weight: 100;
+}
+
+@-webkit-keyframes fadeOut
+{
+    0%
+    {
+        opacity: 0;
+    }
+    10%
+    {
+        opacity: 1;
+    }
+    90%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut
+{
+    0%
+    {
+        opacity: 0;
+    }
+    10%
+    {
+        opacity: 1;
+    }
+    90%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+
+.errors
+{
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+}
+.alert
+{
+    float: right;
+    clear: both;
+
+    width: 250px;
+    margin-bottom: 5px;
+
+    -webkit-animation: fadeOut 2700ms ease-in 0s 1 forwards;
+       -moz-animation: fadeOut 2700ms ease-in 0s 1 forwards;
+            animation: fadeOut 2700ms ease-in 0s 1 forwards;
+    pointer-events: auto;
+}
+
+.media-left img {
+  height: 50px;
+  width: 50px;
+}

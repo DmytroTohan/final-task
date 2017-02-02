@@ -1,0 +1,17 @@
+<template name="postSubmit">
+  <form class="main form page">
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <span class="image-url" hidden></span>
+          <input type='file' id="imgInp" accept="image/*" />
+          <img id="imageupload" src="../img/photo_upload.jpg" alt="..." style="margin-top: 5px;">
+          <div class="caption">
+            <input type="submit" value="Add" class="btn btn-primary disabled"/>
+            <input type="button" id="cancel-btn" value="Cancel" class="btn btn-primary">
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</template>
