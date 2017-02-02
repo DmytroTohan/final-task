@@ -23,7 +23,13 @@ or download ZIP. After that, go to the app folder `../final-task` and type:
 ```
   npm run build
 ```
+after that, type:
 
+```
+  meteor
+```
+
+Open your web browser and go to http://localhost:3000 to see the app running.
 
 ## Running the tests
 
